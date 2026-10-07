@@ -1,4 +1,4 @@
-# Research Pipeline Slidedeck
+# Reproducible Research Slide Deck
 
 Slides for "From Raw Data to Finished Paper: Building a Reproducible Research Pipeline", a session of the Doctoral Orientation Week at WHU - Otto Beisheim School of Management. The session makes the case for managing research data and code deliberately. A well-organized project lets one command reproduce every result, even years later on a new laptop. The closing chapter turns to AI coding agents, with one rule above all: the agent may write the code, it never does the research.
 
@@ -7,7 +7,7 @@ The deck is one [Quarto](https://quarto.org) file, `presentation.qmd`, which ren
 ## Repository structure
 
 ```
-research_pipeline_slidedeck/
+reproducible_research_slidedeck/
 ├── presentation.qmd   the deck's source; this is the file to edit
 ├── presentation.pdf   the rendered slides
 ├── presentation.tex   intermediate LaTeX (only present if the last render failed)
@@ -23,8 +23,8 @@ research_pipeline_slidedeck/
 ## Building the slides
 
 ```bash
-git clone https://github.com/victorvanpelt/research_pipeline_slidedeck.git
-cd research_pipeline_slidedeck
+git clone https://github.com/victorvanpelt/reproducible_research_slidedeck.git
+cd reproducible_research_slidedeck
 make
 ```
 
