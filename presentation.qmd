@@ -125,7 +125,7 @@ Over 85% of articles in economics and political science journals with sharing po
     -   [**How to keep your research projects organized** (de Kok)](https://medium.com/data-science/how-to-keep-your-research-projects-organized-part-1-folder-structure-10bd56034d3a)
 -   Please interrupt, ask questions, and share your experience.
 -   Disclaimer: Largely through the lens of a quantitative researcher.
--   All materials for this talk are available: [**Example Repository**](https://github.com/victorvanpelt/research_pipeline_example) and [**These Slides**](https://github.com/victorvanpelt/reproducible_research_slidedeck)
+-   All materials for this talk are available: [**Example Repository**](https://github.com/victorvanpelt/research_pipeline_example) and [**These Slides**](https://victorvanpelt.github.io/reproducible_research_slidedeck)
 
 ## What will we cover in this session?
 
@@ -570,7 +570,7 @@ But AI changes rapidly and everyone wants to bring their tooling or not at all:
 \centering
 
 [**Download Example Research Pipeline**](https://github.com/victorvanpelt/research_pipeline_example)  
-[**Download Slides**](https://github.com/victorvanpelt/reproducible_research_slidedeck)
+[**Download Slides**](https://victorvanpelt.github.io/reproducible_research_slidedeck)
 
 ## A research pipeline is just the start...
 

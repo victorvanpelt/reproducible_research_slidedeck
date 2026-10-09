@@ -2,9 +2,13 @@
 
 Slides for "From Raw Data to Finished Paper: Building a Reproducible Research Pipeline", a session of the Doctoral Orientation Week at WHU - Otto Beisheim School of Management. The session makes the case for managing research data and code deliberately. A well-organized project lets one command reproduce every result, even years later on a new laptop. The closing chapter turns to AI coding agents, with one rule above all: the agent may write the code, it never does the research.
 
+The slides are available as a [PDF](presentation.pdf).
+
 The deck is one [Quarto](https://quarto.org) file, `presentation.qmd`, which renders to `presentation.pdf` on the WHU beamer template. Many slides show a real companion repository, the [research pipeline example](https://github.com/victorvanpelt/research_pipeline_example), where raw data go in and one command rebuilds the analysis, the paper, and the slides.
 
-## Repository structure
+## Repository
+
+The repository is available at [github.com/victorvanpelt/reproducible_research_slidedeck](https://github.com/victorvanpelt/reproducible_research_slidedeck).
 
 ```
 reproducible_research_slidedeck/
@@ -15,6 +19,7 @@ reproducible_research_slidedeck/
 ├── materials/         WHU beamer template, fonts, bibliography, LaTeX support files
 ├── Makefile           build tasks: `make` renders the deck
 ├── AGENTS.md          rules for AI coding agents working in this repo
+├── _config.yml        tells GitHub Pages to skip the Quarto file
 ├── .gitignore         keeps local agent configuration out of git
 ├── LICENSE            MIT license
 └── README.md          this file
